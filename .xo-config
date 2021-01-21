@@ -1,0 +1,5 @@
+{
+	"space": true,
+    "semicolon": false,
+    "prettier": true
+}

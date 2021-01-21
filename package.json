@@ -1,0 +1,26 @@
+{
+  "name": "csv-to-zip",
+  "version": "1.0.0",
+  "description": "A S3-based csv's to zip PoC stream-based",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "./node_modules/.bin/xo .",
+    "lint:fix": "./node_modules/.bin/xo . --fix"
+  },
+  "author": "Yoann Gendrey",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^5.2.0",
+    "aws-sdk": "^2.829.0",
+    "dotenv": "^8.2.0",
+    "event-stream": "^4.0.1",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.37.1"
+  }
+}
